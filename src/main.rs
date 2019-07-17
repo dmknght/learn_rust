@@ -1,6 +1,22 @@
 use std::io;
 
+fn l5_condition() {
+	/*
+		Lesson 5:
+		Basic work with conditions
+	*/
+	let x = 10;
+	if (x % 2 == 0)
+	{
+		println!("x / 2 = 0");
+	}
+}
+
 fn l4_easy_stdin() {
+	/*
+		Lesson 4:
+		Basic work with stdin
+	*/
 	let mut input = String::new();
 	let reader = io::stdin();
 	reader.read_line(&mut input);
@@ -36,5 +52,6 @@ fn l1_hello_world() {
 }
 
 fn main() {
-	l4_easy_stdin();
+	
+	l5_condition();
 }

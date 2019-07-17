@@ -1,5 +1,19 @@
 use std::io;
 
+fn l6_for_loop() {
+	/*
+		Lesson 6:
+		Basic for loop with condition
+	*/
+	for n in 1..20 {
+		if (n % 2 == 0)
+		{
+			print!("{} ", n);
+		}
+	}
+}
+
+
 fn l5_condition() {
 	/*
 		Lesson 5:
@@ -53,5 +67,5 @@ fn l1_hello_world() {
 
 fn main() {
 	
-	l5_condition();
+	l6_for_loop();
 }

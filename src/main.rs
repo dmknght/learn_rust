@@ -1,4 +1,3 @@
-use std::io;
 
 fn l6_for_loop() {
 	/*
@@ -27,6 +26,8 @@ fn l5_condition() {
 }
 
 fn l4_easy_stdin() {
+	use std::io;
+	
 	/*
 		Lesson 4:
 		Basic work with stdin
@@ -67,5 +68,5 @@ fn l1_hello_world() {
 
 fn main() {
 	
-	l6_for_loop();
+	l4_easy_stdin();
 }

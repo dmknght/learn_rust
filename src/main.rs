@@ -1,3 +1,13 @@
+fn l7_while_loop() {
+	let mut x = 10;
+	while (x > 0) {
+		if (x % 2 == 0)
+		{
+			println!("{}", x);
+		}
+		x -= 1;
+	}
+}
 
 fn l6_for_loop() {
 	/*
@@ -68,5 +78,5 @@ fn l1_hello_world() {
 
 fn main() {
 	
-	l4_easy_stdin();
+	l7_while_loop();
 }
